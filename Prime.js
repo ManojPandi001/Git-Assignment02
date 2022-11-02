@@ -1,14 +1,19 @@
-function checkPrime(num){
-    for(let i=i; i<=num; i++){
-        if(num%i==1){
-            return true;
-        }else{
-            return false;
-        }
-    }
-    
-    
+function myfunction(number){
+	let count = 0;
+for(let i = 1;i<=num;i++){
+if(num%i==0){
+	count++;	
+} 
+} if(count==2){
+	return true;
+} else{
+	return false;
+}	
 }
-
-let ans=checkPrime(17)
+let ans = myfunction(13);
+if(ans == true){
+	console.log('prime nomber')
+} else{
+	console.log('not a prime nomber' );
+}
 
